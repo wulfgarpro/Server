@@ -15,3 +15,7 @@ go build
 docker build . -t goserver:latest
 docker run -p 8991:8991 goserver
 ```
+
+```shell
+docker build -t bookbot -f Dockerfile.py .
+```
